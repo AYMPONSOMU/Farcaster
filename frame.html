@@ -7,10 +7,10 @@
 
 <title>AYMPON COSMIC REALM</title>
 
-<!-- FAVICON -->
 <link rel="icon" type="image/png" href="images/favicon.png">
 
-<!-- FARCASTER FRAME META -->
+<!-- FARCASTER FRAME -->
+
 <meta property="og:title" content="AYMPON COSMIC REALM">
 
 <meta property="og:description"
@@ -24,9 +24,11 @@ content="https://aymponsomu.github.io/AYMPON-COSMIC-TAP/images/favicon.png">
 <meta property="fc:frame:image"
 content="https://aymponsomu.github.io/AYMPON-COSMIC-TAP/images/favicon.png">
 
-<meta property="fc:frame:button:1" content="🌌 ENTER REALM">
+<meta property="fc:frame:button:1"
+content="🌌 ENTER REALM">
 
-<meta property="fc:frame:button:1:action" content="link">
+<meta property="fc:frame:button:1:action"
+content="link">
 
 <meta property="fc:frame:button:1:target"
 content="https://aymponsomu.github.io/AYMPON-COSMIC-TAP/">
@@ -42,9 +44,7 @@ box-sizing:border-box;
 body{
 
 background:black;
-
 color:white;
-
 font-family:Arial,sans-serif;
 
 min-height:100vh;
@@ -67,5 +67,153 @@ width:90%;
 max-width:700px;
 
 border-radius:30px;
+
+background:rgba(255,255,255,0.05);
+
+border:1px solid rgba(255,215,0,0.2);
+
+box-shadow:
+0 0 30px rgba(0,255,255,0.15);
+
+backdrop-filter:blur(10px);
+
+}
+
+.logo{
+
+width:220px;
+max-width:80%;
+
+animation:spin 12s linear infinite;
+
+filter:
+drop-shadow(0 0 20px gold)
+drop-shadow(0 0 30px #00ffff);
+
+}
+
+@keyframes spin{
+
+0%{
+transform:rotate(0deg);
+}
+
+100%{
+transform:rotate(360deg);
+}
+
+}
+
+h1{
+
+margin-top:30px;
+
+font-size:42px;
+
+color:gold;
+
+text-shadow:
+0 0 20px gold,
+0 0 40px orange;
+
+}
+
+p{
+
+margin-top:20px;
+
+font-size:20px;
+
+line-height:1.8;
+
+color:#ccc;
+
+}
+
+.enter-btn{
+
+display:inline-block;
+
+margin-top:35px;
+
+padding:16px 30px;
+
+border-radius:15px;
+
+background:
+linear-gradient(45deg,gold,orange);
+
+color:black;
+
+font-weight:bold;
+
+font-size:18px;
+
+text-decoration:none;
+
+box-shadow:
+0 0 25px gold;
+
+transition:0.3s;
+
+}
+
+.enter-btn:hover{
+
+transform:scale(1.08);
+
+}
+
+.footer{
+
+margin-top:35px;
+
+font-size:14px;
+
+color:rgba(255,255,255,0.5);
+
+}
+
 </style>
-  </html>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="images/favicon.png" class="logo">
+
+<h1>AYMPON COSMIC REALM</h1>
+
+<p>
+
+⚡ Tap Cosmic Energy
+
+<br><br>
+
+🔮 Unlock Sacred Yantras
+
+<br><br>
+
+🪙 Explore the AYMP Ecosystem
+
+</p>
+
+<a href="https://aymponsomu.github.io/AYMPON-COSMIC-TAP/"
+class="enter-btn">
+
+🌌 ENTER REALM
+
+</a>
+
+<div class="footer">
+
+© 2026 AYMPON COSMIC REALM
+
+</div>
+
+</div>
+
+</body>
+</html>
